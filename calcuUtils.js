@@ -672,7 +672,6 @@ String.prototype.divise=function(n){
 }
 //给Array 类扩展加法，非常优雅
 Array.prototype.add=function(stringObj){
-	obj="2*5+4";
 	if(this.length>0 && Utils.valid.arrays.isAllNumber(this)){
 		var add=new Add();
 		return add.add(this)	
